@@ -12,4 +12,5 @@ class Denonctl < Formula
 
   def install
     bin.install('denonctl.rb')
+  end
 end
