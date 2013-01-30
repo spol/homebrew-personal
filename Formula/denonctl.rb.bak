@@ -1,7 +1,0 @@
-require 'formula'
-
-class Denonctl < Formula
-	homepage 'https://github.com/spol/DenonCtl'
-	head 'https://github.com/spol/DenonCtl.git', :using => :git
-	url 'https://github.com/spol/DenonCtl/archive/master.zip'
-end
