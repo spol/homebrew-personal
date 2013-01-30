@@ -5,12 +5,12 @@ require 'formula'
 
 class Denonctl < Formula
   homepage 'https://github.com/spol/DenonCtl'
-  url 'https://github.com/spol/DenonCtl/archive/master.zip'
-  sha1 '060e39ebc1cc5b4f3d9ab827be750a631eff045e'
+  url 'https://github.com/spol/DenonCtl/archive/v0.1.0.zip'
+  sha1 'a74a677f5f9c1b158cce7955d5e3dfca0a301716'
   head 'https://github.com/spol/DenonCtl.git'
-  version '0.1'
+  version '0.1.0'
 
   def install
-    bin.install('denonctl.rb')
+    bin.install('denonctl')
   end
 end
