@@ -4,7 +4,7 @@ class Phonegap < Formula
   homepage 'http://phonegap.com'
   url 'https://github.com/phonegap/phonegap/archive/2.6.0.zip'
   version '2.6.0'
-  sha1 'b4171edc30444fed9350aa2605aa81916d8e73f8'
+  sha1 'f8eecbd5447ad190c0885486ad34e8fafeb46306'
   head 'https://github.com/phonegap/phonegap.git'
 
   def install
